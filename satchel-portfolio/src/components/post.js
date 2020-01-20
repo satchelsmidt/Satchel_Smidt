@@ -25,7 +25,7 @@ class Post extends Component {
         const post = this.state.post ? (
             <div className="post">
                 <h4 className="center">
-                    this.state.post.title
+                    {this.state.post.title}
                 </h4>
                 <p>{this.state.post.body}</p>
             </div>

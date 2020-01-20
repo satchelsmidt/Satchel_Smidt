@@ -5,7 +5,7 @@ import Contact from "./components/contact"
 import NavBar from "./components/NavBar"
 import Post from "./components/post"
 
-import { BrowserRouter, Route} from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
@@ -14,10 +14,13 @@ function App() {
       <div className="App">
         <NavBar />
         {/* Using 'exact path' for a route ensures that it returns only routes that match this path exactly */}
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/contact' component={Contact} />
-        <Route path="/:post_id" component={Post}/>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Contact} />
+          {/* This can be interpreted as our other route names as well, so we need to modify this somehow. We can use the 'Switch' tag here, matches only one route at a time */}
+          <Route path="/:post_id" component={Post} />
+        </Switch>
       </div>
     </BrowserRouter>
   );
