@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-// import axios from 'axios'
+// import axios from 'axios' //NOT NEEDED WITH REDUX
 import { Link } from 'react-router-dom'
 import Pokeball from '../pokeball_PNG24.png'
-//import this function to return a higher order component
+//import this function to return a higher order component necessary to connect to redux store
 import { connect } from 'react-redux'
 
 class Home extends Component {
