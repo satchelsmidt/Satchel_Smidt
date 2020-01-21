@@ -4,7 +4,7 @@ import { Link, withRouter } from 'react-router-dom'
 const NavBar = (props) => {
 
     return (
-        <nav className="nav-wrapper">
+        <nav className="nav-wrapper grey darken-3">
             <div className="container">
                 <a className="brand-logo">Satchel Smidt</a>
                 <ul className="right">
