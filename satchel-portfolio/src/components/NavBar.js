@@ -19,8 +19,8 @@ class NavBar extends Component {
             <div>
                 <nav className="nav-wrapper grey darken-3 header">
                     <div className="nav-wrapper grey darken-3 header">
-                        <a className="brand-logo center">Satchel Smidt</a>
-                        <a href="/" data-target="mobile" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
+                        <h3 className="brand-logo center">Satchel Smidt</h3>
+                        <Link to="/" data-target="mobile" className="sidenav-trigger right"><i className="material-icons">menu</i></Link>
                         <ul className="right hide-on-med-and-down">
                             {/* Link tags here prevent page from reloading + contacting server on each page load */}
                             <li><Link to="/about">About</Link></li>

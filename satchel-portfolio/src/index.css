@@ -30,6 +30,7 @@ code {
   animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  border-radius: 25px;
 }
 
 @keyframes fadeInAnimation {
@@ -71,7 +72,6 @@ code {
 }
 
 .projectCard {
-  /* margin: 15px; */
   padding: 15px;
 }
 
@@ -84,7 +84,7 @@ h3 {
 }
 
 .satchelPic {
-  height: 270px;
+  height: 280px;
   width: 250px;
   padding-top: 11.25px;
   padding-right: 11.25px;
@@ -103,7 +103,36 @@ a{
 .githubSmall{
   padding:3px;
 }
+.btn-floating:hover{
+  /* opacity: 0.5; */
+  transform: scale(1.1);
+}
 
 .projectDesc{
   font-size: small;
+}
+
+.projectHeader{
+  color: white;
+}
+
+.projectPic{
+  border-radius: 25px;
+  filter: drop-shadow(1px 1px 1px black);
+}
+.projectPic:hover{
+  opacity: 0.5;
+  /* transform: scale(1.1); */
+}
+
+.deployedLink{
+  color: black;
+}
+
+.deployedLink { transition: all .2s ease-in-out; }
+.deployedLink:hover { transform: scale(1.1); }
+
+
+.brand-logo{
+  margin-top:15px;
 }

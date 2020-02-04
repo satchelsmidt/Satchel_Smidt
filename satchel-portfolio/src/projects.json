@@ -1,6 +1,34 @@
 [
     {
         "id": 1,
+        "name": "Kindler",
+        "img_source": "kindler.png",
+        "description": "Kindler is a mobile application developed by a team of 3. It gives users the tools to plan a more exciting night out.",
+        "technologies": [
+            "React Native",
+            "JavaScript",
+            "Node",
+            "Express",
+            "MongoDB"
+        ],
+        "deployed_link": "https://www.youtube.com/watch?v=9QN2OPpL3Kc",
+        "github_link": "https://github.com/satchelsmidt/Kindler"
+    },
+    {
+        "id": 2,
+        "name": "Memory Game",
+        "img_source": "fruit.jpg",
+        "description": "Memory game where user is shown a number of pictures and must click on each unique picture with no repeats. Pictures shuffle randomly on each click. Built in React.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "deployed_link": "https://satchelsmidt.github.io/React_Memory_Game/",
+        "github_link": "https://github.com/satchelsmidt/React_Memory_Game"
+    },
+    {
+        "id": 3,
         "name": "Meal Prepper",
         "img_source": "prepper.png",
         "description": "This application is designed to simplify meal planning. It lets the user search for new recipes in a cuisine of their choice, and gives them a calendar view of when to cook these recipes.",
@@ -16,25 +44,10 @@
         "github_link": "https://github.com/satchelsmidt/Meal_Prep_App"
     },
     {
-        "id": 2,
-        "name": "Kindler",
-        "img_source": "prepper.png",
-        "description": "Kindler is a mobile application built using React Native, and developed by a team of 3. The goal of this application is to provide individuals and those in relationships with planning tools to empower them during the decision making process of planning a date.",
-        "technologies": [
-            "React Native",
-            "JavaScript",
-            "Node",
-            "Express",
-            "MongoDB"
-        ],
-        "deployed_link": "#",
-        "github_link": "https://github.com/satchelsmidt/Kindler"
-    },
-    {
-        "id": 3,
+        "id": 4,
         "name": "Atlantic Tech News Scraper",
-        "img_source": "prepper.png",
-        "description": "This application is designed to simplify meal planning. It lets the user search for new recipes in a cuisine of their choice, and gives them a calendar view of when to cook these recipes.",
+        "img_source": "atlantic.png",
+        "description": "Full stack web application that scrapes news articles from various sources and lets users leave comments on them.",
         "technologies": [
             "JavaScript",
             "Node",
@@ -47,35 +60,34 @@
         "github_link": "https://github.com/satchelsmidt/Meal_Prep_App"
     },
     {
-        "id": 4,
-        "name": "React Memory Game",
-        "img_source": "prepper.png",
-        "description": "Memory game where user is shown a number of pictures and must click on each unique picture with no repeats. Pictures shuffle randomly on each click. Developed in React.js.",
+        "id": 5,
+        "name": "Farm Hangman",
+        "img_source": "farm.jpg",
+        "description": "Hangman-style word guessing game.",
         "technologies": [
-            "React",
             "JavaScript",
             "HTML/CSS"
         ],
-        "deployed_link": "https://satchelsmidt.github.io/React_Memory_Game/",
-        "github_link": "https://github.com/satchelsmidt/React_Memory_Game"
+        "deployed_link": "https://satchelsmidt.github.io/Word-Guess-Game/",
+        "github_link": "https://github.com/satchelsmidt/Word-Guess-Game"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Storefront CLI",
-        "img_source": "prepper.png",
-        "description": "CLI app with two primary interfaces, one for customers and one for managers. Meant to simulate an online storefront. Built using Node.js, with all data stored in MySQL database. ",
+        "img_source": "online.png",
+        "description": "CLI app with two primary interfaces, one for customers and one for managers. Meant to simulate an online storefront.",
         "technologies": [
             "JavaScript",
             "Node",
             "MySQL"
         ],
-        "deployed_link": "#",
+        "deployed_link": "https://github.com/satchelsmidt/Storefront_App",
         "github_link": "https://github.com/satchelsmidt/Storefront_App"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Compatibility Quiz",
-        "img_source": "prepper.png",
+        "img_source": "love.jpg",
         "description": "A quiz that contains a variety of questions that the user can answer. Based on answers, user is matched with another user with the most similar answers.",
         "technologies": [
             "JavaScript",

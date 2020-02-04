@@ -34,8 +34,8 @@ const Footer = () => {
                     </div>
                     <div className="right">
                         <a href={"https://www.linkedin.com/in/satchelsmidt/"}
-                            target="_blank"><img src={Linkedin} alt="Linkedin Logo" className="logo" /></a>
-                        <a href={"https://github.com/satchelsmidt"} target="_blank"><img src={Github} alt="Github Logo" className="logo" /></a>
+                            target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="Linkedin Logo" className="logo"/></a>
+                        <a href={"https://github.com/satchelsmidt"} target="_blank" rel="noopener noreferrer"><img src={Github} alt="Github Logo" className="logo" /></a>
                     </div>
                 </div>
             </footer>

@@ -9,8 +9,8 @@ const initState = {
 
 //create our reducer
 const rootReducer = (state = initState, action) => {
-    if(action.type = "DELETE_POST"){
-        let newPosts = state.posts.filter((post)=>{
+    if (action.type = "DELETE_POST") {
+        let newPosts = state.posts.filter((post) => {
             return post.id !== action.id
         })
         return {
@@ -18,7 +18,9 @@ const rootReducer = (state = initState, action) => {
             posts: newPosts
         }
     }
-    return state
+    else {
+        return state
+    }
 }
 
 export default rootReducer

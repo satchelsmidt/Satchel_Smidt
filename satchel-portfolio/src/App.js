@@ -4,7 +4,7 @@ import ContactPage from "./components/pages/ContactPage"
 import ProjectPage from './components/pages/ProjectPage'
 import ResumePage from './components/pages/ResumePage'
 import NavBar from "./components/NavBar"
-import Post from "./components/post"
+// import Post from "./components/post"
 import Footer from './components/Footer'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
@@ -25,7 +25,7 @@ const App = () => {
           <Route path='/resume' component={ResumePage} />
           <Route path='/contact' component={ContactPage}/>
           {/* This can be interpreted as our other route names as well, so we need to modify this somehow. We can use the 'Switch' tag here, matches only one route at a time */}
-          <Route path="/:post_id" component={Post} />
+          {/* <Route path="/:post_id" component={Post} /> */}
         </Switch>
       </div>
 
