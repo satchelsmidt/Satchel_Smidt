@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "name": "Meal Prepper",
+        "img_source": "prepper.png",
+        "description": "This application is designed to simplify meal planning. It lets the user search for new recipes in a cuisine of their choice, and gives them a calendar view of when to cook these recipes.",
+        "technologies": [
+            "JavaScript",
+            "Node",
+            "Express",
+            "JQuery",
+            "MySQL",
+            "HTML/CSS"
+        ],
+        "deployed_link": "https://shielded-retreat-82496.herokuapp.com/",
+        "github_link": "https://github.com/satchelsmidt/Meal_Prep_App"
+    },
+    {
+        "id": 2,
+        "name": "Kindler",
+        "img_source": "prepper.png",
+        "description": "Kindler is a mobile application built using React Native, and developed by a team of 3. The goal of this application is to provide individuals and those in relationships with planning tools to empower them during the decision making process of planning a date.",
+        "technologies": [
+            "React Native",
+            "JavaScript",
+            "Node",
+            "Express",
+            "MongoDB"
+        ],
+        "deployed_link": "#",
+        "github_link": "https://github.com/satchelsmidt/Kindler"
+    },
+    {
+        "id": 3,
+        "name": "Atlantic Tech News Scraper",
+        "img_source": "prepper.png",
+        "description": "This application is designed to simplify meal planning. It lets the user search for new recipes in a cuisine of their choice, and gives them a calendar view of when to cook these recipes.",
+        "technologies": [
+            "JavaScript",
+            "Node",
+            "Express",
+            "Expo",
+            "MySQL",
+            "HTML/CSS"
+        ],
+        "deployed_link": "https://ancient-atoll-71270.herokuapp.com/",
+        "github_link": "https://github.com/satchelsmidt/Meal_Prep_App"
+    },
+    {
+        "id": 4,
+        "name": "React Memory Game",
+        "img_source": "prepper.png",
+        "description": "Memory game where user is shown a number of pictures and must click on each unique picture with no repeats. Pictures shuffle randomly on each click. Developed in React.js.",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "deployed_link": "https://satchelsmidt.github.io/React_Memory_Game/",
+        "github_link": "https://github.com/satchelsmidt/React_Memory_Game"
+    },
+    {
+        "id": 5,
+        "name": "Storefront CLI",
+        "img_source": "prepper.png",
+        "description": "CLI app with two primary interfaces, one for customers and one for managers. Meant to simulate an online storefront. Built using Node.js, with all data stored in MySQL database. ",
+        "technologies": [
+            "JavaScript",
+            "Node",
+            "MySQL"
+        ],
+        "deployed_link": "#",
+        "github_link": "https://github.com/satchelsmidt/Storefront_App"
+    },
+    {
+        "id": 6,
+        "name": "Compatibility Quiz",
+        "img_source": "prepper.png",
+        "description": "A quiz that contains a variety of questions that the user can answer. Based on answers, user is matched with another user with the most similar answers.",
+        "technologies": [
+            "JavaScript",
+            "Node",
+            "Express",
+            "JQuery",
+            "MySQL",
+            "HTML/CSS"
+        ],
+        "deployed_link": "https://guarded-savannah-85598.herokuapp.com/",
+        "github_link": "https://github.com/satchelsmidt/Compatibility_Quiz"
+    }
+]

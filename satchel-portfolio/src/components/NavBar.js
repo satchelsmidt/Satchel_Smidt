@@ -1,21 +1,46 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Link, withRouter } from 'react-router-dom'
+import M from "materialize-css/dist/js/materialize.min.js"
 
-const NavBar = (props) => {
+class NavBar extends Component {
 
-    return (
-        <nav className="nav-wrapper grey darken-3">
-            <div className="container">
-                <a className="brand-logo">Satchel Smidt</a>
-                <ul className="right">
-                    {/* Link tags here prevent page from reloading + contacting server on each page load */}
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+    componentDidMount() {
+        let elems = document.querySelectorAll('.sidenav')
+        let instances = M.Sidenav.init(elems, {
+            menuWidth: 500,
+            edge: 'right',
+            inDuration: 200,
+            closeOnClick: true
+        })
+    }
+
+    render() {
+        return (
+            <div>
+                <nav className="nav-wrapper grey darken-3 header">
+                    <div className="nav-wrapper grey darken-3 header">
+                        <a className="brand-logo center">Satchel Smidt</a>
+                        <a href="/" data-target="mobile" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
+                        <ul className="right hide-on-med-and-down">
+                            {/* Link tags here prevent page from reloading + contacting server on each page load */}
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/resume">Resume</Link></li>
+                            <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                {/* Must use <a> elements because that is what is read by navbar closeOnClick method */}
+                <ul className="sidenav right" id="mobile">
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-    )
+        )
+    }
 }
 
 export default withRouter(NavBar)

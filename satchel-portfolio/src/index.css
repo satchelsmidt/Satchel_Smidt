@@ -1,31 +1,109 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url(./assets/seattle_2_crop_3.jpg);
   background-position: center center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.row{
-  padding-top:50px;
+.row {
+  padding-top: 50px;
   padding-right: 50px;
   padding-left: 50px;
-
-
 }
 
-.aboutText{
+.aboutText {
   opacity: .85;
+  margin: 50px;
+}
+
+.card {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo {
+  width: 40px;
+  height: 4 0px;
+  margin: 0px 10px;
+  padding-top: 3px;
+}
+
+.copyright {
+  color: black;
+  margin-left: 15px;
+}
+
+.header {
+  opacity: .8;
+}
+
+.pageHeader {
+  display: inline
+}
+
+.sidenav {
+  width: 175px;
+}
+
+.projectRow {
+  width: 66%;
+  padding: 0px;
+}
+
+.projectCard {
+  /* margin: 15px; */
+  padding: 15px;
+}
+
+.card .card-action {
+  padding: 5px;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+.satchelPic {
+  height: 270px;
+  width: 250px;
+  padding-top: 11.25px;
+  padding-right: 11.25px;
+  float: left;
+}
+
+a{
+  color: white;
+}
+
+.resumePic{
+  height:1120px;
+  width: 870px;
+}
+
+.githubSmall{
+  padding:3px;
+}
+
+.projectDesc{
+  font-size: small;
 }
