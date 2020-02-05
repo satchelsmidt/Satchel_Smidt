@@ -16,14 +16,14 @@ class NavBar extends Component {
 
     render() {
         return (
-            <div>
-                <nav className="nav-wrapper grey darken-3 header">
-                    <div className="nav-wrapper grey darken-3 header">
+            <div className="navbar-fixed">
+                <nav className="nav-wrapper header">
+                    <div className="nav-wrapper blue-grey darken-3 header">
                         <h3 className="brand-logo center">Satchel Smidt</h3>
                         <Link to="/" data-target="mobile" className="sidenav-trigger right"><i className="material-icons">menu</i></Link>
                         <ul className="right hide-on-med-and-down">
                             {/* Link tags here prevent page from reloading + contacting server on each page load */}
-                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/">About</Link></li>
                             <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
                             <li><Link to="/contact">Contact</Link></li>

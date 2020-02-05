@@ -54,10 +54,6 @@ code {
   margin-left: 15px;
 }
 
-.header {
-  opacity: .8;
-}
-
 .pageHeader {
   display: inline
 }
@@ -89,6 +85,8 @@ h3 {
   padding-top: 11.25px;
   padding-right: 11.25px;
   float: left;
+  border-radius: 25px;
+  filter: drop-shadow(1px 1px 1px black);
 }
 
 a{
@@ -98,13 +96,14 @@ a{
 .resumePic{
   height:1120px;
   width: 870px;
+  border-radius: 25px;
+  filter: drop-shadow(1px 1px 1px black);
 }
 
 .githubSmall{
   padding:3px;
 }
 .btn-floating:hover{
-  /* opacity: 0.5; */
   transform: scale(1.1);
 }
 
@@ -121,18 +120,29 @@ a{
   filter: drop-shadow(1px 1px 1px black);
 }
 .projectPic:hover{
-  opacity: 0.5;
-  /* transform: scale(1.1); */
+  opacity: 0.7;
 }
 
 .deployedLink{
   color: black;
 }
+.deployedLink:hover{
+  text-decoration: underline;
+  color: grey
+}
 
-.deployedLink { transition: all .2s ease-in-out; }
-.deployedLink:hover { transform: scale(1.1); }
-
+.waves-effect{
+  border-radius: 50px;
+}
 
 .brand-logo{
   margin-top:15px;
+}
+
+h5, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif;
 }

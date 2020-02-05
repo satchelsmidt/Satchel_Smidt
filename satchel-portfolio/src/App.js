@@ -20,7 +20,7 @@ const App = () => {
         <NavBar />
         {/* Using 'exact path' for a route ensures that it returns only routes that match this path exactly */}
         <Switch>
-          <Route path='/about' component={AboutPage} />
+          <Route path='/' component={AboutPage} />
           <Route path='/projects' component={ProjectPage} />
           <Route path='/resume' component={ResumePage} />
           <Route path='/contact' component={ContactPage}/>

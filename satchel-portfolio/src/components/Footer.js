@@ -12,7 +12,6 @@ const Footer = () => {
         bottom: "0",
         height: "55px",
         width: "98%",
-        // opacity: ".8",
         margin: "10px 10px 10px 15px"
     }
 
@@ -27,7 +26,7 @@ const Footer = () => {
         <div>
             <div style={phantom} />
 
-            <footer className="page-footer" style={style}>
+            <footer className="page-footer red lighten-2" style={style}>
                 <div className="footer-copyright" style={{ paddingTop: '4px' }}>
                     <div className="left copyright">
                         © 2020 Satchel Smidt
