@@ -21,6 +21,7 @@ const App = () => {
         {/* Using 'exact path' for a route ensures that it returns only routes that match this path exactly */}
         <Switch>
           <Route exact path='/' component={AboutPage} />
+          <Route path='/Satchel_Smidt/' component={AboutPage} />
           <Route path='/projects' component={ProjectPage} />
           <Route path='/resume' component={ResumePage} />
           <Route path='/contact' component={ContactPage}/>
