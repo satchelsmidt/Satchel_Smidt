@@ -8,7 +8,6 @@ class Projects extends Component {
         projects
     }
 
-
     render() {
 
         const projectList = this.state.projects.map(project => {
@@ -19,7 +18,7 @@ class Projects extends Component {
 
         return (
             <div>
-                <div className="row projectRow right">
+                <div className="row projectRow">
                     {projectList}
                 </div>
             </div>

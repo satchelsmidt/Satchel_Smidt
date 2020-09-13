@@ -26,11 +26,16 @@ code {
   margin: 50px;
 }
 
+.col {
+  float: none
+}
+
 .card {
   animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   border-radius: 25px;
+  float: left
 }
 
 @keyframes fadeInAnimation {
@@ -63,7 +68,7 @@ code {
 }
 
 .projectRow {
-  width: 66%;
+  width: 100%;
   padding: 0px;
 }
 
@@ -79,16 +84,6 @@ h3 {
   margin-top: 5px;
 }
 
-.satchelPic {
-  height: 280px;
-  width: 250px;
-  padding-top: 11.25px;
-  padding-right: 11.25px;
-  float: left;
-  border-radius: 25px;
-  filter: drop-shadow(1px 1px 1px black);
-}
-
 a{
   color: white;
 }
@@ -98,6 +93,7 @@ a{
   width: 870px;
   border-radius: 25px;
   filter: drop-shadow(1px 1px 1px black);
+  margin: 0 auto;
 }
 
 .githubSmall{
@@ -113,11 +109,14 @@ a{
 
 .projectHeader{
   color: white;
+  text-align: center
 }
 
 .projectPic{
   border-radius: 25px;
   filter: drop-shadow(1px 1px 1px black);
+  width: auto;
+  height: auto
 }
 .projectPic:hover{
   opacity: 0.7;
@@ -146,3 +145,17 @@ h5, h3{
 p{
   font-family: 'Noto Sans', sans-serif;
 }
+
+.aboutCard{
+    padding: 10px;;
+}
+
+.contactCard{
+  padding: 10px;;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.contentDiv{
+  text-align: center;
+} 
