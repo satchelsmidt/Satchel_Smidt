@@ -5,7 +5,7 @@ import ProjectPage from './components/pages/ProjectPage'
 import ResumePage from './components/pages/ResumePage'
 import NavBar from "./components/NavBar"
 import Footer from './components/Footer'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 const App = () => {
   return (
@@ -13,13 +13,16 @@ const App = () => {
       <div className="App">
         <NavBar />
         <div className="container">
-        <Switch>
-          <Route exact path='/' component={AboutPage} />
-          <Route path='/Satchel_Smidt/' component={AboutPage} />
-          <Route path='/projects' component={ProjectPage} />
-          <Route path='/resume' component={ResumePage} />
-          <Route path='/contact' component={ContactPage}/>
-        </Switch>
+          <Switch>
+            <Route path='/about' component={AboutPage} />
+            <Route path='/Satchel_Smidt/' component={AboutPage} />
+            <Route path='/projects' component={ProjectPage} />
+            <Route path='/resume' component={ResumePage} />
+            <Route path='/contact' component={ContactPage} />
+            <Route exact path="/Satchel_Smidt/">
+              <Redirect to="/about" />
+            </Route>
+          </Switch>
         </div>
       </div>
 

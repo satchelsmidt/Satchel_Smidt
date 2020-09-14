@@ -6,7 +6,7 @@ class ProjectCard extends Component {
     render() {
 
         return (
-            <div className="col l6 m9 s12 cardCol">
+            <div className="col l6 m12 s12 cardCol">
                 <div className="card projectCard amber lighten-5">
                     <a href={this.props.deployed} className="deployedLink" target="_blank" rel="noopener noreferrer"><h3 className="card-title">{this.props.name}</h3></a>
                     <div className="card-image">

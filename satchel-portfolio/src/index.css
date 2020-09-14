@@ -17,8 +17,8 @@ code {
 
 .row {
   padding-top: 50px;
-  padding-right: 50px;
-  padding-left: 50px;
+  /* padding-right: 50px; */
+  /* padding-left: 50px; */
 }
 
 .aboutText {
@@ -89,8 +89,8 @@ a{
 }
 
 .resumePic{
-  height:1120px;
-  width: 870px;
+  height:100%;
+  width: 100%;
   border-radius: 25px;
   filter: drop-shadow(1px 1px 1px black);
   margin: 0 auto;
@@ -151,11 +151,19 @@ p{
 }
 
 .contactCard{
-  padding: 10px;;
-  width: 30%;
+  padding: 15px;;
+  width: 100%;
   margin: 0 auto;
 }
 
 .contentDiv{
   text-align: center;
 } 
+
+.contactRow{
+  /* display: flex; */
+  /* align-items: center; */
+  text-align: center;
+  float: none;
+  margin: 0 auto;
+}

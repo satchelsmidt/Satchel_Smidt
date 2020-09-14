@@ -17,10 +17,10 @@ class Projects extends Component {
         })
 
         return (
-            <div>
-                <div className="row projectRow">
+            <div className="col">
+                {/* <div className="row projectRow"> */}
                     {projectList}
-                </div>
+                {/* </div> */}
             </div>
         )
     }
