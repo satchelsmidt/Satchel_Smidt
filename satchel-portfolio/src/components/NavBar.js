@@ -33,10 +33,10 @@ class NavBar extends Component {
 
                 {/* Must use <a> elements because that is what is read by navbar closeOnClick method */}
                 <ul className="sidenav right" id="mobile">
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/resume">Resume</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/resume">Resume</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         )
