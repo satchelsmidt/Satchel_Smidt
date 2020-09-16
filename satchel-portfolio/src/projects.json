@@ -3,12 +3,12 @@
         "id": 1,
         "name": "Meal Prepper (Preppy)",
         "img_source": "preppy.png",
-        "description": "Simplify your meal planning -- this app lets you create a weeklong meal plan based around your schedule and dietary needs/preferences. ",
+        "description": "Simplify your meal planning by creating a weeklong meal plan based around your schedule and dietary preferences. ",
         "technologies": [
             "JavaScript",
             "React.js",
             "Node.js",
-            "Express",
+            "Express.js",
             "PostgreSQL",
             "HTML/CSS"
         ],
@@ -19,12 +19,12 @@
         "id": 2,
         "name": "Kindler",
         "img_source": "kindler.png",
-        "description": "Kindler lets you plan a more exciting night out with tailored movies, restaurants, and activities.",
+        "description": "Plan a more exciting night out with tailored movies, restaurants, and activities.",
         "technologies": [
             "React Native",
             "JavaScript",
             "Node.js",
-            "Express",
+            "Express.js",
             "MongoDB"
         ],
         "deployed_link": "https://www.youtube.com/watch?v=9QN2OPpL3Kc",
@@ -34,7 +34,7 @@
         "id": 3,
         "name": "Memory Game",
         "img_source": "fruit.jpg",
-        "description": "Memory game where user is shown a number of pictures and must click on each unique picture with no repeats. Pictures shuffle randomly on each click. Built in React.",
+        "description": "Click on each unique picture shown with no repeats. Pictures shuffle randomly on each click.",
         "technologies": [
             "React.js",
             "JavaScript",
@@ -45,14 +45,14 @@
     },
     {
         "id": 4,
-        "name": "Atlantic Tech News Scraper",
+        "name": "News Scraper",
         "img_source": "atlantic.png",
-        "description": "Full stack web application that scrapes news articles from various sources and lets users leave comments on them.",
+        "description": "View news articles scraped from the Atlantic Tech Column and leave comments on specific articles.",
         "technologies": [
             "JavaScript",
+            "JQuery",
             "Node.js",
-            "Express",
-            "Expo",
+            "Express.js",
             "MySQL",
             "HTML/CSS"
         ],
@@ -63,7 +63,7 @@
         "id": 5,
         "name": "Farm Hangman",
         "img_source": "farm.jpg",
-        "description": "Hangman-style word guessing game.",
+        "description": "Play hangman with a classic farm inspired theme. Includes sound effects.",
         "technologies": [
             "JavaScript",
             "HTML/CSS"
@@ -75,7 +75,7 @@
         "id": 6,
         "name": "Storefront CLI",
         "img_source": "online.png",
-        "description": "CLI app with two primary interfaces, one for customers and one for managers. Meant to simulate an online storefront.",
+        "description": "Online storefront simulator built in the command line.",
         "technologies": [
             "JavaScript",
             "Node.js",
@@ -88,11 +88,11 @@
         "id": 7,
         "name": "Compatibility Quiz",
         "img_source": "love.jpg",
-        "description": "A quiz that contains a variety of questions that the user can answer. Based on answers, user is matched with another user with the most similar answers.",
+        "description": "Answer a variety of questions designed to test compatability.",
         "technologies": [
             "JavaScript",
             "Node.js",
-            "Express",
+            "Express.js",
             "JQuery",
             "MySQL",
             "HTML/CSS"

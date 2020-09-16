@@ -17,8 +17,6 @@ code {
 
 .row {
   padding-top: 50px;
-  /* padding-right: 50px; */
-  /* padding-left: 50px; */
 }
 
 .aboutText {
@@ -67,15 +65,6 @@ code {
   width: 175px;
 }
 
-.projectRow {
-  width: 100%;
-  padding: 0px;
-}
-
-.projectCard {
-  padding: 15px;
-}
-
 .card .card-action {
   padding: 5px;
 }
@@ -94,6 +83,7 @@ a{
   border-radius: 25px;
   filter: drop-shadow(1px 1px 1px black);
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .githubSmall{
@@ -154,6 +144,7 @@ p{
   padding: 15px;;
   width: 100%;
   margin: 0 auto;
+  margin-top: 10px;
 }
 
 .contentDiv{
@@ -161,8 +152,6 @@ p{
 } 
 
 .contactRow{
-  /* display: flex; */
-  /* align-items: center; */
   text-align: center;
   float: none;
   margin: 0 auto;
