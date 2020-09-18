@@ -24,8 +24,9 @@ class NavBar extends Component {
                         <ul className="right hide-on-med-and-down">
                             {/* Link tags here prevent page from reloading + contacting server on each page load */}
                             <li><Link to="/about">About</Link></li>
-                            <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/projects">Projects</Link></li>
+                            <li><Link to="/work">Work</Link></li>
+                            <li><Link to="/resume">Resume</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
@@ -34,8 +35,9 @@ class NavBar extends Component {
                 {/* Must use <a> elements because that is what is read by navbar closeOnClick method */}
                 <ul className="sidenav right" id="mobile">
                     <li><Link to="/about">About</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/work">Work</Link></li>
+                    <li><Link to="/resume">Resume</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
